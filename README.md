@@ -1,7 +1,8 @@
 # Bluetooth-Firework-Controller
 This project is a Bluetooth controlled Firework circuit, printed on a custom PCB, utilizing an esp32 and MIT app inventor. 
 
-
+  
+  
 ****** Making the Circuit ******
 
   First we need to make the physical circuit. I have the Gerber file for the PCB that was created in Fushion 360 Eagle. Upload this file to https://cart.jlcpcb.com/quote. Leave all of the default settings as is unless you want a different color, Green and Black are the cheapest. We now need to gather all of the bits and peaces to put on the PCB, here is a list of everything you will need...
@@ -23,9 +24,11 @@ This project is a Bluetooth controlled Firework circuit, printed on a custom PCB
 
 
 
+
 ****** 3D printing the Enclosure ******
 
   After the circuit is built, it should be installed in an enclosure. I included the STL files for a 3D printable enclosure I designed for this system. "The enclosure has space under the circuit board that will fit the 3s LIPO". 
+
 
 
 
@@ -42,6 +45,7 @@ When the app is installed, you must pair your phone's Bluetooth with the Arduino
 Then open the app and click the green connect button, select " FWController ".
 Now you should be able to control the circuit outputs by holding down on the ignitor you select in the app.
 When you let off of an Ignition button in the app, the output will be tuned off. You must hold the button for as long as you want the output to be on.
+
 
 
 
