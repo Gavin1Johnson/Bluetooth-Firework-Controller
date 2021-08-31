@@ -4,7 +4,7 @@ This project is a Bluetooth controlled Firework circuit, printed on a custom PCB
 
 ****** Making the Circuit ******
 
-First we need to make the physical circuit. I have the gerber file for the PCB that was created in Fushion 360 Eagle. Upload this file to https://cart.jlcpcb.com/quote. Leave all of the defult settings as is unless you want a difrent color, Green and Black are the cheapest. We now need to gather all of the bits and peaces to put on the pcb, here is a list of everything you will need...
+  First we need to make the physical circuit. I have the gerber file for the PCB that was created in Fushion 360 Eagle. Upload this file to https://cart.jlcpcb.com/quote. Leave all of the defult settings as is unless you want a difrent color, Green and Black are the cheapest. We now need to gather all of the bits and peaces to put on the pcb, here is a list of everything you will need...
 
 * 8 RGB LED's // you will need to cut the two unused leeds to get the corlor you want.
 * 12V to 5V regulator // I used this adjustable one, https://www.amazon.com/MP1584EN-DC-DC-Converter-Adjustable-Module/dp/B01MQGMOKI/ref=sr_1_10?crid=20SXA6HKESWZD&dchild=1&keywords=12v+to+5v+step+down+converter&qid=1630436302&sprefix=12v+to+5v%2Caps%2C218&sr=8-10
@@ -25,13 +25,13 @@ First we need to make the physical circuit. I have the gerber file for the PCB t
 
 ****** 3D printing the Enclosure ******
 
-After the circuit is built, it should be installed in an enclosure. I included the STL files for a 3D printable enclosure I desighned for this system. They enclosure has space under the circuit board that will fit the 3s LIPO. 
+  After the circuit is built, it should be installed in an enclosure. I included the STL files for a 3D printable enclosure I desighned for this system. "The enclosure has space under the circuit board that will fit the 3s LIPO". 
 
 
 
 ****** Installing the Arduino Code and Phone App ******
 
-After the circuit is built, The included arduino code must be copyed and pased into the Arduino IDE, https://www.arduino.cc/en/software.
+  After the circuit is built, The included arduino code must be copyed and pased into the Arduino IDE, https://www.arduino.cc/en/software.
 To use a ESP-32 with Arduino IDE, you must click on " File ", then " Preferences ". Go to " Sketchbook Loacation: " and past " https://dl.espressif.com/dl/package_esp32_index.json " and click " OK ".
 Now go to " Tools ", then " Board: ", then " ESP32 Arduino " and select the board you are using. I am using the " TTGO T7 V1.3 mini ", but any esp-32 with Bluetooth should work to my knowledge.
 Then you must download the " FWController-APP ".
@@ -47,4 +47,4 @@ When you let off of an Ignition button in the app, the output will be tuned off.
 
 ****** Using the System ******
 
-To Use the system, Strip the insilation off of a 22 AWG multistranded wire. Wrap one strand of wire around a fierwork fuse and connect each side of wire into the terminal blocks on the Fierwork Controller unit. Then pair the system to the phone app, turn on the arm switch and hold down on the ignitor switch you want to ignite. 
+  To Use the system, Strip the insilation off of a 22 AWG multistranded wire. Wrap one strand of wire around a fierwork fuse and connect each side of wire into the terminal blocks on the Fierwork Controller unit. Then pair the system to the phone app, turn on the arm switch and hold down on the ignitor switch you want to ignite. 
