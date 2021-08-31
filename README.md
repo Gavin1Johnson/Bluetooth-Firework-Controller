@@ -35,7 +35,7 @@ This project is a Bluetooth controlled Firework circuit, printed on a custom PCB
 ****** Installing the Arduino Code and Phone App ******
 
   After the circuit is built, The included Arduino code must be copied and pasted into the Arduino IDE, https://www.arduino.cc/en/software.
-To use a ESP-32 with Arduino IDE, you must click on " File ", then " Preferences ". Go to " Sketchbook Location: " and past " https://dl.espressif.com/dl/package_esp32_index.json " and click " OK ".
+To use a ESP-32 with Arduino IDE, you must click on " File ", then " Preferences ". Go to " Sketchbook Location: " Copy and Past " https://dl.espressif.com/dl/package_esp32_index.json " and click " OK ".
 Now go to " Tools ", then " Board: ", then " ESP32 Arduino " and select the board you are using. I am using the " TTGO T7 V1.3 mini ", but any esp-32 with Bluetooth should work to my knowledge.
 Then you must download the " FWController-APP ".
 Here is a link to download the app, https://gallery.appinventor.mit.edu/?galleryid=07105df6-4db3-4b73-83b0-122944c37ee6.
