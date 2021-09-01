@@ -27,7 +27,7 @@ This project is a Bluetooth controlled Firework circuit, printed on a custom PCB
 
 ****** 3D printing the Enclosure ******
 
-  After the circuit is built, it should be installed in an enclosure. I included the STL files for a 3D printable enclosure I designed for this system. "The enclosure has space under the circuit board that will fit the 3s LIPO". 
+  After the circuit is built, it should be installed in an enclosure. I included the STL files for a 3D printable enclosure I designed for this project. "The enclosure has space under the circuit board that will fit the 3s LIPO". 
 
 
 
