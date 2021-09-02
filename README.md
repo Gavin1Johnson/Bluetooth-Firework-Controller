@@ -14,13 +14,13 @@ This project is a Bluetooth controlled Firework circuit, printed on a custom PCB
 * Each of our 8 LED's will need a resistor // I used 470 Ohms 1/2W resistors
 * 6 Screw terminal blocks with two terminals each // I used these, https://www.amazon.com/DGZZI-50pcs-Terminal-Connector-Arduino/dp/B07SZFGH4B/ref=sr_1_5?crid=5CSNFZ1R5NCE&dchild=1&keywords=pcb+screw+terminal+block&qid=1630437130&s=industrial&sprefix=pcb+scre%2Cindustrial%2C169&sr=1-5
 * Voltage Display // I used this one, https://www.amazon.com/dp/B07Q2RQYPJ?psc=1&ref=ppx_yo2_dt_b_product_details
-* To switch the outputs on/off we will use the IRLB8721 Mosfet // https://www.amazon.com/dp/B083WMH7CD?psc=1&ref=ppx_yo2_dt_b_product_details
-* For safity, We will use a switch to arm and disarm the outputs // https://www.amazon.com/Taiss-Latching-Position-Incidental-Connect/dp/B08F1D52YS/ref=sr_1_5?crid=1VFR086O04FB&dchild=1&keywords=12v+toggle+switch&qid=1630437351&s=industrial&sprefix=12v+t%2Cindustrial%2C173&sr=1-5
-* To power the system I used a 3s LIPO battery // https://www.amazon.com/TATTU-850mAh-Battery-Racing-Quadcopters/dp/B07218SB7L/ref=sr_1_31?dchild=1&keywords=3s+lipo&qid=1630437418&sr=8-31
+* To switch the outputs on/off you will need to use the IRLB8721 Mosfet // https://www.amazon.com/dp/B083WMH7CD?psc=1&ref=ppx_yo2_dt_b_product_details
+* For safity, you will need to use a switch to arm and disarm the outputs // https://www.amazon.com/Taiss-Latching-Position-Incidental-Connect/dp/B08F1D52YS/ref=sr_1_5?crid=1VFR086O04FB&dchild=1&keywords=12v+toggle+switch&qid=1630437351&s=industrial&sprefix=12v+t%2Cindustrial%2C173&sr=1-5
+* To power the system, I used a 3s LIPO battery // https://www.amazon.com/TATTU-850mAh-Battery-Racing-Quadcopters/dp/B07218SB7L/ref=sr_1_31?dchild=1&keywords=3s+lipo&qid=1630437418&sr=8-31
 * To Protect the LIPO from over charge/Over discharge we need a BMS // https://www.amazon.com/Comidox-Protection-Anti-Overcharge-Over-Discharge-Over-Current/dp/B07J9NXQ6W/ref=sr_1_12?dchild=1&keywords=3s+lipo+bms&qid=1630437488&sr=8-12
-* If we want to charge the LIPO with a USB cable we will need to step up the 5v from the cable to 12V for the LIPO // https://www.amazon.com/dp/B07RNBJK5F?psc=1&ref=ppx_yo2_dt_b_product_details
+* If you want to charge the LIPO with a USB cable we will need to step up the 5v from the cable to 12V for the LIPO // https://www.amazon.com/dp/B07RNBJK5F?psc=1&ref=ppx_yo2_dt_b_product_details
 * A USB-C connector will be connected to the 5V-12V boost converter so the system can be charged with a phone cable // https://www.amazon.com/Electronics123-SparkFun-USB-C-Breakout/dp/B07M6R37L8/ref=sr_1_6?dchild=1&keywords=usb+c+board&qid=1630437616&sr=8-6
-* Lastly, we will need multistranded 22 AWG wire to extend the PWR LED / ARM LED / ARM Switch. We will also be using the inner strands to wrap around the firework fuses to ignite them. 
+* Lastly, you will need multistranded 22 AWG wire to extend the PWR LED / ARM LED / ARM Switch. We will also be using the inner strands to wrap around the firework fuses to ignite them. 
 
 
 
